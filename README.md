@@ -15,12 +15,15 @@ A command-line calculator that guides the user through various arithmetic operat
 - **Subtraction (-)**
 - **Multiplication (*)**
 - **Division (/)**: Includes protection against division by zero.
+- **Power (**)**: Raises a number to any power (including negative and fractional exponents)
+- **Root (nth root)**: Calculates any root of a number (square root, cube root, etc.)
 - **Continuous operation** until the user decides to exit.
 
 ### How It Works
 - **Menu Driven:** Presents users with a menu of options to perform arithmetic operations or to exit the program.
-- **User Input Handling:** Prompts the user to input two numbers and select an operation, validating the inputs.
+- **User Input Handling:** Prompts the user to input numbers and select an operation, validating the inputs. For power operations, prompts for base and exponent. For root operations, prompts for the number and the root type.
 - **Operations Execution:** Performs the selected arithmetic operation and displays the result.
+- **Error Handling:** Handles special cases like division by zero, even roots of negative numbers, and overflow errors.
 
 ### Usage
 Run the script using Python:
@@ -64,6 +67,9 @@ expression_result = Calculator.calculate("(10 + 5) * 2")
 
 ## Error Handling
 - **Invalid Inputs:** Protects against invalid inputs and division by zero, providing relevant error messages.
+- **Power Operations:** Handles overflow errors for very large results.
+- **Root Operations:** Prevents calculation of even roots of negative numbers and 0th roots.
+- **Mathematical Edge Cases:** Handles negative exponents, fractional powers, and complex mathematical scenarios.
 
 ---
 

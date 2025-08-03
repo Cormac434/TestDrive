@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **Interactive Calculator Flow Diagram** to README.md
+  - Comprehensive Mermaid flowchart showing calculator operation logic
+  - Visual representation of all 7 operations and decision points
+  - Error handling paths and validation flows clearly mapped
+  - Color-coded elements for start, success, error, and exit states
+  - Complete coverage of user input validation and edge cases
+
 ## [1.1.0] - 2025-08-03
 
 ### Added

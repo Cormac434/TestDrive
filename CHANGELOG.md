@@ -17,12 +17,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Error handling for invalid operation choices
   - Complete virtual environment setup with Python 3.12
   - Self-contained package structure for deployment
+- **Comprehensive README.md** for Hooke's Law Calculator (`Hooke/README.md`)
+  - Detailed explanation of Hooke's Law physics principles
+  - Complete usage instructions and examples
+  - Virtual environment setup guide
+  - Practical applications and limitations documentation
+  - Educational content with formula explanations
 - **Interactive Calculator Flow Diagram** to README.md
   - Comprehensive Mermaid flowchart showing calculator operation logic
   - Visual representation of all 7 operations and decision points
   - Error handling paths and validation flows clearly mapped
   - Color-coded elements for start, success, error, and exit states
   - Complete coverage of user input validation and edge cases
+
+### Changed
+- **Enhanced Hooke's Law Calculator Interface** (`Hooke/calc_hooke.py`)
+  - Improved menu-driven interface with numbered options (1-4)
+  - Added dedicated exit option (Option 4) in main menu
+  - Enhanced user experience with clearer navigation
+  - More concise and friendly prompts
+  - Streamlined program flow with better loop structure
+  - Post-calculation continuation prompt for multiple calculations
+  - Consistent exit messaging throughout the application
 
 ## [1.1.0] - 2025-08-03
 

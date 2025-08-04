@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Hooke's Law Calculator** (`Hooke/calc_hooke.py`) with virtual environment
+  - Interactive calculator for spring physics calculations
+  - Calculates force (F), spring constant (k), or elongation (x) using Hooke's Law: F = kx
+  - Spanish language interface with user-friendly prompts
+  - Input validation for numerical values
+  - Precise results with 2 decimal place formatting
+  - Error handling for invalid operation choices
+  - Complete virtual environment setup with Python 3.12
+  - Self-contained package structure for deployment
 - **Interactive Calculator Flow Diagram** to README.md
   - Comprehensive Mermaid flowchart showing calculator operation logic
   - Visual representation of all 7 operations and decision points

@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Removed
+- **Hooke's Law Calculator Virtual Environment Files**
+  - Removed virtual environment binaries and configuration files
+  - Deleted `Hooke/bin/` directory with Python executables and pip
+  - Removed `Hooke/pyvenv.cfg` configuration file
+  - Removed `Hooke/lib64` symbolic link
+  - Removed `Hooke/README.md` documentation
+  - Cleaned up `Hooke/calc_hooke.py` from repository
+  - Simplified project structure by removing virtual environment dependencies
+
+## [1.2.0] - 2025-08-04
+
 ### Added
 - **Hooke's Law Calculator** (`Hooke/calc_hooke.py`) with virtual environment
   - Interactive calculator for spring physics calculations
